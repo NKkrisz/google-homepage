@@ -1,8 +1,4 @@
-# Google Homepage
-
-## My 1st Odin Project
-
-<br>
+# Google Homepage: My 1st Odin Project
 
 ### How it started:
 

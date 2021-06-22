@@ -9,3 +9,11 @@
 ### Changes #1
 
 - Made basic nav and footer
+
+### Changes #2
+
+- Made basic searchbar and buttons
+
+### Changes #3
+
+- Centered the searchbar and logo

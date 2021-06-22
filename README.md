@@ -17,3 +17,7 @@
 ### Changes #3
 
 - Centered the searchbar and logo
+
+### Changes #4
+
+- Adjusted the Google Logo, the buttons, made searchbar better looking

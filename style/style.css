@@ -1,3 +1,37 @@
+a{
+    text-decoration: none;
+    color: #5e5e5e;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 nav{
     display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 1200px;
+    font-size: 14px;
+}
+
+nav div{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 1200px;
+    font-size: 14px;
+}
+
+footer div{
+    padding-top: 20px;
+    padding-left: 20px;
 }

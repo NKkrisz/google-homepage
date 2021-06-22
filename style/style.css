@@ -12,16 +12,32 @@ nav{
     grid-template-columns: 400px 400px;
     column-gap: 1200px;
     font-size: 14px;
-}
-
-nav div{
     padding-top: 20px;
     padding-left: 20px;
 }
 
-.logo{
-    justify-content: center;
-    align-items: center;
+.signin{
+    color: white;
+    background-color: #4583eb;
+    border-radius: 2.5px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+button{
+    background-color: #f4f4f4;
+    color: #5e5e5e;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+}
+
+button:hover{
+    color: black;
+    border: black solid 1px;
 }
 
 footer{
@@ -29,9 +45,6 @@ footer{
     grid-template-columns: 400px 400px;
     column-gap: 1200px;
     font-size: 14px;
-}
-
-footer div{
     padding-top: 20px;
     padding-left: 20px;
 }

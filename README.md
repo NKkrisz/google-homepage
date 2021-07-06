@@ -21,3 +21,7 @@
 ### Changes #4
 
 - Adjusted the Google Logo, the buttons, made searchbar better looking
+
+### Changes #5
+
+- Made everything more responsive

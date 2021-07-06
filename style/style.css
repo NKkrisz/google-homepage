@@ -15,6 +15,14 @@ a:hover{
     flex-direction: row;
 }
 
+.row a{
+    padding: 0 5px 0 5px;
+}
+
+.row img{
+    vertical-align: middle;
+}
+
 .col{
     flex-direction: column;
 }
@@ -24,6 +32,7 @@ nav{
     padding: 20px 20px 0px 20px;
     width: 100%;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .nrow{
@@ -47,6 +56,7 @@ footer{
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .frow{
@@ -63,14 +73,17 @@ footer{
 }
 
 .signin{
-    display: flex;
-    width: 50px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
     color: white;
     background-color: #4583eb;
     border-radius: 2.5px;
+    width: 75px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.signin:hover{
+    color: white;
 }
 
 .container{
@@ -97,9 +110,36 @@ footer{
     }
 }
 
+@media(max-width: 500px){
+    footer .fcol{
+        margin: 5px;
+    }
+}
+
+@media(max-width: 400px){
+    nav a{
+        margin: 15px;
+        padding: 15px;
+    }
+    nav .ncol{
+        margin: 5px;
+    }
+
+    button{
+        max-width: 125px;
+    }
+}
+
+@media(max-width: 200px){
+    button{
+        max-width: 100px;
+    }
+}
+
+
 input{
     border-radius: 20px;
-    width: 500px;
+    width: 550px;
     height: 40px;
     border: #dfe1e5 solid 0.5px;
     outline: none;
@@ -131,12 +171,11 @@ button{
     border: none;
     border-radius: 2.5px;
     height: 35px;
-    width: 150px;
-    margin-top: 30px;
+    width: 125px;
+    margin: 30px 5px 0 5px;
 }
 
 button:hover{
     color: black;
-    border: black solid 1px;
+    border: #a4a4a4 solid 1px;
 }
-

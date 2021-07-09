@@ -25,3 +25,7 @@
 ### Changes #5
 
 - Made everything more responsive
+
+### Changes #6
+
+- Added search icon to input, and changed sign-in button's look

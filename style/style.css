@@ -150,7 +150,7 @@ input:hover{
 }
 
 .search-img{
-    background-image: url("./images/search.svg");
+    background-image: url("../images/search.svg");
     background-position: left;
     background-repeat: no-repeat;
     padding-left: 20px;
